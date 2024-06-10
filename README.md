@@ -1,7 +1,7 @@
 # Navi's Personal Website
 
 This is my personal website, get to know me further by exploring my personal website.
-personal website url: navingrh.site (coming soon)
+<br> personal website url: navingrh.site (coming soon)
 
 ## Tech Stack
 1. HTML
