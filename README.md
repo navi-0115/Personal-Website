@@ -14,7 +14,7 @@ You could checkout my personal website design in detail on figma [here](https://
 
 ## Features
 | Features | Details |
-| --- | --- |
+| --- | --- |git 
 | About | Contains brief information about me |
 | Projects | This section shows projects I had involved in |
 | Skills | Shows skills that I am capable and it contains the logo of the stack |
