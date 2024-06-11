@@ -10,11 +10,11 @@ This is my personal website, get to know me further by exploring my personal web
 ## UI Design
 You could checkout my personal website design in detail on figma [here](https://www.figma.com/design/wRJf3MDjBKg19fEjc6XMdH/Personal-Website?node-id=0-1&t=3r0wuIeYcBBtKK5Y-0).
 
-![Landing Page](/assets/image.png)
+![Landing Page](/assets/images/image.png)
 
 ## Features
 | Features | Details |
-| --- | --- |git 
+| --- | --- |
 | About | Contains brief information about me |
 | Projects | This section shows projects I had involved in |
 | Skills | Shows skills that I am capable and it contains the logo of the stack |
