@@ -7,33 +7,26 @@
         <title>Navi Personal Website</title>
         <meta name="description" content="Personal Website of Navi">
 
+        <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
-        <header class="container header">
-            <h1 class="logo">
-                <a href="/index.html">navi</a>
-            </h1>
-
+        <header class="container-header">
             <!-- navbar -->
-            <nav class="navbar">
-                <ul class="navbar list">
-                    <li>
-                        <a id="about">About</a>
-                    </li>
-                    <li>
-                        <a id="project">Project</a>
-                    </li>
-                    <li>
-                        <a id="skill">Skills</a>
-                    </li>
-                    <li>
-                        <a id="contact">Contact</a>
-                    </li>
+            <nav class="navbar-list">
+                <!-- logo -->
+                <a class="" href="/index.html">navi</a>
+                <!-- navbar menu -->
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#project">Project</a></li>
+                    <li class="nav-item"><a href="#skill">Skills</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="container stack">
+        <main class="container-main-body">
             <!-- Hero section -->
             <section>
                 <img src="" alt="Hero">
@@ -44,7 +37,7 @@
             </section>
 
             <!-- About section -->
-            <section>
+            <section id="about">
                 <h2>
                     Hi, I'm Navi! 
                 </h2>
@@ -56,25 +49,23 @@
                 </p>
 
                 <!-- pdf cv link -->
-                <button class="pdf" src="https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/">
-                    more information
-                </button>
+                <a class="pdf" href="https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/">more information</a>
             </section>
 
             <!-- project section -->
-            <section class="container project">
+            <section id="project" class="container-project">
                 <h2>Projects</h2>
                 <p>Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
             </section>
 
             <!-- skill section -->
-            <section class="container skill">
+            <section id="skill" class="container-skill">
                 <h2>Skills</h2>
                 <p>If you'd like to get in touch, you can reach me using the following platforms. </p>
             </section>
 
             <!-- contact section -->
-            <section class="container contact">
+            <section id="contact" class="container-contact">
                 <h2>Contact</h2>
                 <ul>
                     <li>
@@ -87,7 +78,7 @@
                     </li>
                     <li>
                         <h3>Email</h3>
-                        <a target="_blank" href="navinugraha15@gmail.com">navinugraha15@gmail.com</a>
+                        <a target="_blank" href="mailto:navinugraha15@gmail.com">navinugraha15@gmail.com</a>
                     </li>
                     <li>
                         <h3>Instagram</h3>
@@ -97,10 +88,10 @@
 
             </section>
 
+            </main>
             <!-- copyright -->
-            <footer class="container footer">
-                <p class="copyright footer"> copyright navi &copy; 2024</p>
+            <footer class="container-footer">
+                <p class="copyright-footer"> &copy; 2024 Copyright Navi Personal Website</p>
             </footer>
-        </main>
     </body>
 </html>
