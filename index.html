@@ -1,97 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navi Personal Website</title>
+    <meta name="description" content="Personal Website of Navi">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-header">
+        <!-- navbar -->
+        <nav class="navbar">
+            <a href="/index.html" class="logo">Navi</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#project">Projects</a></li>
+                <li class="nav-item"><a href="#skill">Skills</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <title>Navi Personal Website</title>
-        <meta name="description" content="Personal Website of Navi">
+    <main class="container-main-body">
+        <!-- Hero section -->
+        <section class="hero">
+            <img src="hero-background.jpg" alt="Hero Background" class="hero-img">
+        </section>
+        
+        <!-- About section -->
+        <section class="about-content">
+                <img src="profile.jpg" alt="Navi's Profile Picture" class="profile-pic">
+                <h1>Hi! I'm Navi <span class="wave">👋</span></h1>
+                <h2 class="highlight">DevOps Engineer & Creative Creator</h2>
+                <p>Currently, I'm participating in a fullstack development bootcamp at Bearmentor to sharpen my skills. Before that, I gained valuable experience in software development, DevOps, and cloud computing through hands-on projects and internships in the industry.</p>
+                <a href="https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/" class="btn">More Information</a>
+        </section>
 
-        <link rel="stylesheet" href="style.css">
+        <!-- Projects section -->
+        <section id="project" class="projects">
+            <h2>Projects</h2>
+            <p>Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Binamurid</p>
+                    <p>Web App & Application, Ruby on Rails API, PostgreSQL, Redis</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>Descam</p>
+                    <p>Ruby on Rails, Python Flask API, PostgreSQL, Machine Learning, Tensorflow, Google Cloud</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <p>Network Billing Sys</p>
+                    <p>CodeIgniter, MySQL, Payment Gateway</p>
+                </div>
+                <div class="project-card">
+                    <img src="project4.jpg" alt="Project 4">
+                    <p>DevOps</p>
+                    <p>AWS, Docker, Gitlab CI/CD, Github CI/CD, Portainer, Nginx, Traefik</p>
+                </div>
+            </div>
+        </section>
 
-    </head>
-    <body>
-        <header class="container-header">
-            <!-- navbar -->
-            <nav class="navbar-list">
-                <!-- logo -->
-                <a class="" href="/index.html">navi</a>
-                <!-- navbar menu -->
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#project">Project</a></li>
-                    <li class="nav-item"><a href="#skill">Skills</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <!-- Skills section -->
+        <section id="skill" class="skills">
+            <h2>Skills</h2>
+            <p>Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
+            <div class="skill-icons">
+                <img src="js.png" alt="JavaScript">
+                <img src="rails.png" alt="Ruby on Rails">
+                <img src="python.png" alt="Python">
+                <img src="docker.png" alt="Docker">
+                <img src="mysql.png" alt="MySQL">
+                <img src="tensorflow.png" alt="Tensorflow">
+            </div>
+        </section>
 
-        <main class="container-main-body">
-            <!-- Hero section -->
-            <section>
-                <img src="" alt="Hero">
-            </section>
+        <!-- Contact section -->
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, you can reach me using the following platforms.</p>
+            <ul>
+                <li><h3>Email</h3><a href="mailto:navinugraha15@gmail.com">navinugraha15@gmail.com</a></li>
+                <li><h3>Github</h3><a href="https://github.com/navi-0115">github.com/navi-0115</a></li>
+                <li><h3>LinkedIn</h3><a href="https://www.linkedin.com/in/muhammadnavinugraha/">muhammadnavinugraha</a></li>
+                <li><h3>Instagram</h3><a href="https://instagram.com/navingrh">navingrh</a></li>
+            </ul>
+        </section>
+    </main>
 
-            <section>
-                <img src="" alt="Photo Profile">
-            </section>
-
-            <!-- About section -->
-            <section id="about">
-                <h2>
-                    Hi, I'm Navi! 
-                </h2>
-                <h3>DevOps Engineer</h3>
-                <p>
-                    Currently, I'm participating in a fullstack development bootcamp at Bearmentor to sharpen my skills. 
-                    Before that, I gained valuable experience in software development, DevOps, and cloud computing through
-                    hands-on projects and internships in the industry.
-                </p>
-
-                <!-- pdf cv link -->
-                <a class="pdf" href="https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/">more information</a>
-            </section>
-
-            <!-- project section -->
-            <section id="project" class="container-project">
-                <h2>Projects</h2>
-                <p>Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
-            </section>
-
-            <!-- skill section -->
-            <section id="skill" class="container-skill">
-                <h2>Skills</h2>
-                <p>If you'd like to get in touch, you can reach me using the following platforms. </p>
-            </section>
-
-            <!-- contact section -->
-            <section id="contact" class="container-contact">
-                <h2>Contact</h2>
-                <ul>
-                    <li>
-                        <h3>Github</h3>
-                        <a target="_blank" href="https://github.com/navi-0115">github.com/navi-0115</a>
-                    </li>
-                    <li>
-                        <h3>LinkedIn</h3>
-                        <a target="_blank" href="https://www.linkedin.com/in/muhammadnavinugraha/">muhammadnavinugraha</a>
-                    </li>
-                    <li>
-                        <h3>Email</h3>
-                        <a target="_blank" href="mailto:navinugraha15@gmail.com">navinugraha15@gmail.com</a>
-                    </li>
-                    <li>
-                        <h3>Instagram</h3>
-                        <a target="_blank" href="https://instagram.com/navingrh">navingrh</a>
-                    </li>
-                </ul>
-
-            </section>
-
-            </main>
-            <!-- copyright -->
-            <footer class="container-footer">
-                <p class="copyright-footer"> &copy; 2024 Copyright Navi Personal Website</p>
-            </footer>
-    </body>
+    <footer class="container-footer">
+        <p class="copyright-footer">© 2024 Navi Personal Website</p>
+    </footer>
+</body>
 </html>
