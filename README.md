@@ -1,7 +1,7 @@
 # Navi's Personal Website
 
 This is my personal website, get to know me further by exploring my personal website.<br>
-**personal website url:** navingrh.site (coming soon)
+**personal website url:** [navingrh.com] (https://navinrgh.vercel.app/)
 
 ## Tech Stack
 1. HTML
@@ -23,6 +23,7 @@ You could checkout my personal website design in detail on figma [here](https://
 ## Progress Logbook
 <details>
 <summary> Bootcamp Logbook </summary>
+Detail logbook could be seen [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main)
 
 | Day | Progress |
 | --- | --- |
