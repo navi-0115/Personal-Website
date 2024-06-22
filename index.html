@@ -6,93 +6,126 @@
     <title>Navi Personal Website</title>
     <meta name="description" content="Personal Website of Navi">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
-<body>
-    <header class="container-header">
-        <!-- navbar -->
-        <nav class="navbar">
-            <a href="/index.html" class="logo">Navi</a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#project">Projects</a></li>
-                <li class="nav-item"><a href="#skill">Skills</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center py-4 px-8 max-w-screen-md">
+            <a href="/index.html" class="text-xl font-semibold">Navi</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-gray-600">About</a></li>
+                <li><a href="#projects" class="hover:text-gray-600">Projects</a></li>
+                <li><a href="#skills" class="hover:text-gray-600">Skills</a></li>
+                <li><a href="#contact" class="hover:text-gray-600">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="container-main-body">
-        <!-- Hero section -->
-        <section class="hero">
-            <img src="hero-background.jpg" alt="Hero Background" class="hero-img">
-        </section>
-        
-        <!-- About section -->
-        <section class="about-content">
-                <img src="profile.jpg" alt="Navi's Profile Picture" class="profile-pic">
-                <h1>Hi! I'm Navi <span class="wave">👋</span></h1>
-                <h2 class="highlight">DevOps Engineer & Creative Creator</h2>
-                <p>Currently, I'm participating in a fullstack development bootcamp at Bearmentor to sharpen my skills. Before that, I gained valuable experience in software development, DevOps, and cloud computing through hands-on projects and internships in the industry.</p>
-                <a href="https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/" class="btn">More Information</a>
+    <main class="container mx-auto px-20 py-12 max-w-screen-md">
+        <!-- About Section -->
+        <section id="about" class="text-left">
+            <div class="flex justify-start mb-8">
+                <img src="assets/images/photo_profile.jpeg" alt="Profile Picture" class="ml-1 mr-10 w-40 h-40 rounded-full border-4 border-black shadow-md object-cover">
+                <div class="content-center">
+                    <h1 class="text-4xl font-bold">Hi, I'm Navi! <span class="wave">👋</span></h1>
+                    <h2 class="text-xl text-gray-600 font-medium mt-2">DevOps Engineer</h2>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p class="mt-4 text-gray-700">
+                    Currently, I'm participating in a fullstack development bootcamp at Bearmentor to sharpen my skills.
+                    Before that, I gained valuable experience in software development, DevOps, and cloud computing through
+                    hands-on projects and internships in the industry.
+                </p>
+                <a href="https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/" class="inline-block mt-6 bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800">More Information</a>
+            </div>
         </section>
 
-        <!-- Projects section -->
-        <section id="project" class="projects">
-            <h2>Projects</h2>
-            <p>Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
-            <div class="project-cards">
-                <div class="project-card">
-                    <img src="project1.jpg" alt="Project 1">
-                    <p>Binamurid</p>
-                    <p>Web App & Application, Ruby on Rails API, PostgreSQL, Redis</p>
+        <!-- Projects Section -->
+        <section id="projects" class="mt-12">
+            <h2 class="text-3xl font-semibold text-left">Projects</h2>
+            <p class="text-left text-gray-600 mt-2">Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="path/to/project1.jpg" alt="Project 1" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg">Binamurid</h3>
+                        <p class="text-gray-600">Web App & Application, Ruby on Rails API, PostgreSQL, Redis</p>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <img src="project2.jpg" alt="Project 2">
-                    <p>Descam</p>
-                    <p>Ruby on Rails, Python Flask API, PostgreSQL, Machine Learning, Tensorflow, Google Cloud</p>
+                <!-- Project 2 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="path/to/project2.jpg" alt="Project 2" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg">Descam</h3>
+                        <p class="text-gray-600">Ruby on Rails, Python Flask API, PostgreSQL, Machine Learning TensorFlow, Google Cloud</p>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <img src="project3.jpg" alt="Project 3">
-                    <p>Network Billing Sys</p>
-                    <p>CodeIgniter, MySQL, Payment Gateway</p>
+                <!-- Project 3 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="path/to/project3.jpg" alt="Project 3" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg">Network Billing Sys</h3>
+                        <p class="text-gray-600">CodeIgniter, MySQL, Payment Gateway</p>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <img src="project4.jpg" alt="Project 4">
-                    <p>DevOps</p>
-                    <p>AWS, Docker, Gitlab CI/CD, Github CI/CD, Portainer, Nginx, Traefik</p>
+                <!-- Project 4 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="path/to/project4.jpg" alt="Project 4" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg">DevOps</h3>
+                        <p class="text-gray-600">AWS, Docker, Gitlab CI/CD, Github CI/CD, Portainer, Nginx, Traefik</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills section -->
-        <section id="skill" class="skills">
-            <h2>Skills</h2>
-            <p>Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
-            <div class="skill-icons">
-                <img src="js.png" alt="JavaScript">
-                <img src="rails.png" alt="Ruby on Rails">
-                <img src="python.png" alt="Python">
-                <img src="docker.png" alt="Docker">
-                <img src="mysql.png" alt="MySQL">
-                <img src="tensorflow.png" alt="Tensorflow">
+        <!-- Skills Section -->
+        <section id="skills" class="mt-16 text-left">
+            <h2 class="text-3xl font-semibold">Skills</h2>
+            <p class="text-gray-600 mt-2">Explore some of the projects I've worked on, showcasing my skills and experiences in software development, AI, and cloud computing.</p>
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+                <img src="path/to/skill1.png" alt="Skill 1" class="w-16 h-16">
+                <img src="path/to/skill2.png" alt="Skill 2" class="w-16 h-16">
+                <img src="path/to/skill3.png" alt="Skill 3" class="w-16 h-16">
+                <img src="path/to/skill4.png" alt="Skill 4" class="w-16 h-16">
+                <img src="path/to/skill5.png" alt="Skill 5" class="w-16 h-16">
+                <img src="path/to/skill6.png" alt="Skill 6" class="w-16 h-16">
             </div>
         </section>
 
-        <!-- Contact section -->
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, you can reach me using the following platforms.</p>
-            <ul>
-                <li><h3>Email</h3><a href="mailto:navinugraha15@gmail.com">navinugraha15@gmail.com</a></li>
-                <li><h3>Github</h3><a href="https://github.com/navi-0115">github.com/navi-0115</a></li>
-                <li><h3>LinkedIn</h3><a href="https://www.linkedin.com/in/muhammadnavinugraha/">muhammadnavinugraha</a></li>
-                <li><h3>Instagram</h3><a href="https://instagram.com/navingrh">navingrh</a></li>
+        <!-- Contact Section -->
+        <section id="contact" class="mt-16">
+            <h2 class="text-3xl font-semibold text-left">Contact</h2>
+            <p class="text-left text-gray-600 mt-2">If you'd like to get in touch, you can reach me using the following platforms.</p>
+            <ul class="mt-8 space-y-4 text-left ">
+                <li>
+                    <h3 class="font-semibold">Email</h3>
+                    <a href="mailto:navinugraha15@gmail.com" class="text-blue-500">navinugraha15@gmail.com</a>
+                </li>
+                <li>
+                    <h3 class="font-semibold">LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/muhammadnavinugraha/" class="text-blue-500">muhammadnavinugraha</a>
+                </li>
+                <li>
+                    <h3 class="font-semibold">Github</h3>
+                    <a href="https://github.com/navi-0115" class="text-blue-500">github.com/navi-0115</a>
+                </li>
+                <li>
+                    <h3 class="font-semibold">Instagram</h3>
+                    <a href="https://instagram.com/navingrh" class="text-blue-500">navingrh</a>
+                </li>
             </ul>
         </section>
     </main>
 
-    <footer class="container-footer">
-        <p class="copyright-footer">© 2024 Navi Personal Website</p>
+    <footer class="bg-white py-4">
+        <p class="text-center text-gray-600">&copy; 2024 Navi Personal Website</p>
     </footer>
 </body>
 </html>
