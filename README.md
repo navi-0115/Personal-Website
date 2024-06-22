@@ -1,7 +1,7 @@
 # Navi's Personal Website
 
 This is my personal website, get to know me further by exploring my personal website.<br>
-**personal website url:** [navingrh.com] (https://navinrgh.vercel.app/)
+**personal website url:** [navingrh.com](https://navinrgh.vercel.app/)
 
 ## Tech Stack
 1. HTML
