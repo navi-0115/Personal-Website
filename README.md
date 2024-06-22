@@ -21,9 +21,9 @@ You could checkout my personal website design in detail on figma [here](https://
 | Contact | This section provides information of my social media and email account to get in touch | 
 
 ## Progress Logbook
+Detail logbook could be seen [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main)
 <details>
 <summary> Bootcamp Logbook </summary>
-Detail logbook could be seen [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main)
 
 | Day | Progress |
 | --- | --- |
