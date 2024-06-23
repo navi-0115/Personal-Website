@@ -1,36 +1,30 @@
 # Navi's Personal Website
 
-This is my personal website, get to know me further by exploring my personal website.<br>
-**personal website url:** [navingrh.com](https://navinrgh.vercel.app/)
+Welcome to my personal website! This is where you can get to know more about me, my interests, my projects, and my professional skills. Feel free to explore the site to learn more about my background and work.
+
+**Personal Website URL:** [navingrh.com](https://navinrgh.vercel.app/)
 
 ## Tech Stack
-1. HTML
-2. CSS (CSS Tailwind)
+The technologies used to build this website include:
+1. **HTML:** For the structure and content of the website.
+2. **CSS (Tailwind CSS):** For styling and making the website responsive and visually appealing.
 
 ## UI Design
-You could checkout my personal website design in detail on figma [here](https://www.figma.com/design/wRJf3MDjBKg19fEjc6XMdH/Personal-Website?node-id=0-1&t=3r0wuIeYcBBtKK5Y-0).
+You can check out the detailed design on Figma by following this link: [Figma Design](https://www.figma.com/design/wRJf3MDjBKg19fEjc6XMdH/Personal-Website?node-id=0-1&t=3r0wuIeYcBBtKK5Y-0).
 
 ![Landing Page](/assets/images/image.png)
 
 ## Features
-| Features | Details |
+Here are the key features of my website and what you can find in each section:
+
+| **Feature** | **Details** |
 | --- | --- |
-| About | Contains brief information about me |
-| Projects | This section shows projects I had involved in |
-| Skills | Shows skills that I am capable and it contains the logo of the stack |
-| Contact | This section provides information of my social media and email account to get in touch | 
+| **About** | A brief introduction about me, my interests, my professional experience, and my enthusiasm for technology. |
+| **Projects** | A showcase of the projects I have worked on, highlighting of the stack I experienced. |
+| **Skills** | A display of my technical skills, including logos of the technologies I am proficient in. |
+| **Contact** | Information on how to get in touch with me through social media and email. |
 
 ## Progress Logbook
-Detail logbook could be seen [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main)
-<details>
-<summary> Bootcamp Logbook </summary>
+I maintain a detailed logbook to track the progress of my projects and development. You can view my progress logbook [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main).
 
-| Day | Progress |
-| --- | --- |
-| Day 1 | <ul><li>Introduction with mentors and members</li><li>Professional career</li></ul> |
-| Day 2 | <ul><li>Learning the difference between Website vs Web App</li><li>Basics of Web Design</li><li>UI vs UX</li><li>Process of designing platform starting from skretch, wireframe, mockup, dan Prototype</li><li>Introduction to Figma</li><li>**Task Day 2:** Design Personal Website on Figma</li></ul> |
-| Day 3 | <ul><li>Introduction to various operating systems</li><li>Brief several types of code editors for software development</li><li>Learning about Markdown</li><li>**Task Day 3:** Writing Markdown about Personal Website on README.md</li></ul> |
-| Day 4 | <ul><li>Introduction to terminal on various operating systems</li><li>Introduction to Git and Git Workflow</li><li>Demo Git Workflow</li><li>**Task Day 4:** Demo Git Workflow and pushing task to github</li></ul> |
-
-</details>
 
