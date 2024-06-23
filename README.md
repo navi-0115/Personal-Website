@@ -25,6 +25,6 @@ Here are the key features of my website and what you can find in each section:
 | **Contact** | Information on how to get in touch with me through social media and email. |
 
 ## Progress Logbook
-I maintain a detailed logbook to track the progress of my projects and development. You can view my progress logbook [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main).
+I maintain a logbook to track the progress of my projects at the Bearmentor Bootcamp. You can view my progress logbook [here](https://github.com/navi-0115/bearmentor-logbook-navi/tree/main).
 
 

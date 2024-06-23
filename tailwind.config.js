@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'body': ['Reddit Sans', 'sans-serif'],
+        'reddit': ['Reddit Sans', 'sans-serif'],
       },
     },
   },

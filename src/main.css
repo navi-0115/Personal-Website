@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply font-body;
+    @apply font-reddit;
   }
 }
