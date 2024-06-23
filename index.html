@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="assets/images/logo navi 1.0.png" />
     <title>Navi Personal Website</title>
     <meta name="description" content="Personal Website of Navi">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/main.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 </head>
 <body class="bg-gray-50 text-gray-800 ">
-    <header class="bg-white shadow-md sticky top-0 z-50 ">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto flex justify-between items-center py-4 px-8 max-w-screen-md">
-            <a href="/index.html" class="text-xl font-semibold">Navi</a>
+            <!-- nav logo -->
+            <a href="/index.html" class="text-xl font-semibold">
+                <img src="assets/images/logo navi 1.0.png" alt="Navi" class="w-auto h-10">
+            </a>
+            <!-- nav menu -->
             <ul class="flex space-x-6">
                 <li><a href="#about" class="hover:text-gray-400">About</a></li>
                 <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
@@ -37,7 +41,7 @@
             </div>
             <div class="mt-4">
                 <p class="mt-4 text-gray-700">
-                    DevOps Engineer Based in Indonesia, I gained valuable experience in software development, DevOps, and cloud computing through
+                    DevOps Engineer based in Indonesia, I gained valuable experience in software development, DevOps, and cloud computing through
                     hands-on projects and internships in the industry. To strengthen my foundations in software development,
                     <br> I participate in a fullstack development bootcamp at Bearmentor.
                 </p>
@@ -46,7 +50,7 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="mt-12">
+        <section id="projects" class="mt-16">
             <h2 class="text-3xl font-semibold text-left">Projects</h2>
             <p class="text-left text-gray-600 mt-2">Explore some of the projects I've worked on, showcasing my skills and experiences in software development, DevOps and cloud computing.</p>
             <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -89,7 +93,7 @@
         <section id="skills" class="mt-16 text-left">
             <h2 class="text-3xl font-semibold">Skills</h2>
             <p class="text-gray-600 mt-2">Explore some of the projects I've worked on, showcasing my skills and experiences in software development, DevOps, and cloud computing.</p>
-            <div class="mt-8 flex flex-wrap justify-center gap-4 ">
+            <div class="mt-8 flex flex-wrap justify-center gap-12 ">
                 <img src="assets/images/skills/docker logo.svg" alt="Skill 1" class="w-auto h-16 transform transition-transform duration-300 hover:scale-110">
                 <img src="assets/images/skills/MySQL logo.svg" alt="Skill 2" class="w-auto h-16 transform transition-transform duration-300 hover:scale-110">
                 <img src="assets/images/skills/Javascript logo.svg" alt="Skill 3" class="w-auto h-16 transform transition-transform duration-300 hover:scale-110">
